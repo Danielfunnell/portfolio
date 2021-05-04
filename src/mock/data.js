@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'grey-profile.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -32,8 +32,16 @@ export const projectsData = [
     title: 'Premier Drive',
     info: '',
     info2: '',
-    url: 'https://hardcore-bhabha-b81174.netlify.app/index.html',
+    url: 'https://premierdrive.co.uk/',
     repo: 'https://github.com/Danielfunnell/premierdrive', // if no repo, the button will not show up
+    tagOne: 'Wordpress',
+    tagTwo: 'Custom-theme',
+    tagThree: 'Woocommerce',
+    tagFour: 'Php',
+    tagFive: 'Bootstrap',
+    tagSix: 'Javascript',
+    tagSevern: 'Sass',
+    tagEight: 'Laravel-Mix'
   },
   {
     id: nanoid(),
