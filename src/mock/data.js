@@ -86,7 +86,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/daniel-funnell-6a891072/',
     },
     {
       id: nanoid(),
