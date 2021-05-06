@@ -15,7 +15,6 @@
     @include respond(phone) {
       margin-bottom: 0rem;
     }
-
     .row {
       margin-bottom: 8rem;
 
@@ -78,10 +77,10 @@
 
 .tag-wrapper {
   margin: 0px 0 20px 0;
-  border-top: solid 1px #12232e;
+  //border-top: solid 1px #12232e;
 
   &__ul{
-    padding-top: 10px;
+   
     padding-inline-start:0;
     list-style-type: none;
   }
