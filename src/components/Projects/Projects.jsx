@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import Tag from '../Tag/Tag'
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -28,7 +29,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id, tagOne, tagTwo, tagThree, tagFour, tagFive, tagSix, tagSevern, tagEight} = project;
+            const { title, info, info2, url, repo, img, id, tags} = project;
 
             return (
               <Row key={id}>
@@ -51,32 +52,13 @@ const Projects = () => {
                       </div>
                       <div className="tag-wrapper">
                         <ul className="tag-wrapper__ul">
-                          <li className="tag-wrapper__li">
-                            <p className="tag-wrapper__indi"><small className="tag-wrapper__small">{tagOne}</small></p>
-                          </li>
-                          <li className="tag-wrapper__li">
-                            <p className="tag-wrapper__indi"><small className="tag-wrapper__small">{tagTwo}</small></p>
-                          </li >
-                          <li className="tag-wrapper__li">
-                            <p className="tag-wrapper__indi"><small className="tag-wrapper__small">{tagThree}</small></p>
-                          </li>
-                          <li className="tag-wrapper__li"> 
-                            <p className="tag-wrapper__indi"><small className="tag-wrapper__small">{tagFour}</small></p>
-                          </li>
-                          <li className="tag-wrapper__li">
-                            <p className="tag-wrapper__indi"><small className="tag-wrapper__small">{tagFive}</small></p>
-                          </li>
-                          <li className="tag-wrapper__li">
-                            <p className="tag-wrapper__indi"><small className="tag-wrapper__small">{tagSix}</small></p>
-                          </li>
-                          <li className="tag-wrapper__li">
-                            <p className="tag-wrapper__indi"><small className="tag-wrapper__small">{tagSevern}</small></p>
-                          </li>
-                          <li className="tag-wrapper__li">
-                            <p className="tag-wrapper__indi"><small className="tag-wrapper__small">{tagEight}</small></p>
-                          </li>
+                          
+                            {tags.map((tag) => {
+                              return <Tag tags={tag} />;
+                            })}
+                          
                         </ul>
-                      </div> 
+                      </div>
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -96,7 +78,6 @@ const Projects = () => {
                           Source Code
                         </a>
                       )}
-                     
                     </div>
                   </Fade>
                 </Col>
