@@ -24,7 +24,7 @@ export const aboutData = {
     'This has grown from building a static website to building full-stack applications and has allowed me to continually learn new skills. This only adds to my excitement and determination to succeed and grow in this field and bring across a host of transferable skills.',
   paragraphThree:
     "Below you'll find projects that I have completed that showcase my skills and devotion to web development.",
-  resume: 'https://drive.google.com/file/d/1erc5pDikt6tgKCRlpzZh6ncHghvCv10P/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1gbvl42AXCY081_PBOuQ4Uaj5jRPwJRUT/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
