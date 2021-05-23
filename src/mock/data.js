@@ -38,7 +38,7 @@ export const projectsData = [
     info2:
       'I have also created a JavaScript driven questionnaire to allow customers to find the most suitable intensive driving course for themselves.',
     url: 'https://premierdrive.co.uk/',
-    repo: 'https://github.com/Danielfunnell/premierdrive', // if no repo, the button will not show up
+    repo: 'https://github.com/Danielfunnell/premier-drive-theme', // if no repo, the button will not show up
     tags: [
       'Wordpress',
       'Custom-theme',
