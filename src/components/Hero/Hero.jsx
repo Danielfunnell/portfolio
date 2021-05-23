@@ -29,7 +29,7 @@ const Header = () => {
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Your Name'}</span>
             <br />
-            {subtitle || "a self taught Front End Developer."}
+            {subtitle || "a self taught Web Developer."}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
