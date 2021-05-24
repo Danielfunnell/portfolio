@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'grey-profile.jpg',
   paragraphOne:
-    'After deciding to challenge myself to build a new website for my business I have discovered a passion for web development',
+    'After deciding to challenge myself to build a new website for my business I have discovered a passion for web development.',
   paragraphTwo:
     'This has grown from building a static website to building full-stack applications and has allowed me to continually learn new skills. This only adds to my excitement and determination to succeed and grow in this field and bring across a host of transferable skills.',
   paragraphThree:
